@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sansita+Swashed:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+header {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    background-color: rgb(183, 207, 226);
+    border: 2px solid black;
+    padding: 0.20px;
+}
+
+footer {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-variant: unset;
+    font-size: 120%;
+    width: 100%;
+    padding: 0.20px ;
+    margin: auto;
+    clear: left;
+    }
+
+header>h1 {
+    margin: auto;
+    padding: 6px;
+}
+
+h2 {
+    font-family: 'Sansita Swashed', cursive;
+    margin: auto;
+    font-weight: 500;
+    font-size: 150%;
+    color: black;
+   
+}
+
+h3 {
+    color: black;
+    font-family: 'Sansita Swashed', cursive;
+    margin: auto;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+body {
+    line-height: 1.6;
+    color: red;
+    margin: auto;
+    padding: 2%;
+    background-image: url(Arcade\ city.jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+li {
+    line-height: 30px;
+}
+
+div {
+    padding: 2%;
+    margin: auto;
+}
+
+
+div p {
+    line-height: 40px;
+    background-color: rgb(183, 207, 226);
+    padding: 5%;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    width: 70%;
+    font-size: 120%;
+    font-variant: normal;
+}
+
+#Core {
+    float: left;
+    width: 580px;
+    margin: auto;
+    display: inline-flexbox;
+    padding: 2%;
+    
+}
+
+#less {
+    float: left;
+    width: 580px;
+    margin: auto;
+    display: inline-flexbox;
+    padding: 2%;
+}
+
+#less p {
+    background-color: none;
+}
+
+
+p .BB {
+    background-color: yellow;
+    color: black;
+}
+
+p .Karma {
+    background-color: yellow;
+    color: black;
+}
+
+p .Grem {
+    background-color: yellow;
+    color: black;
+}
+
+
+p .red {
+    background-color: yellow;
+    color: black;
+}
+
+p .Fol {
+    background-color: yellow;
+    color: black;
+}
+
+
+p .Fi {
+    background-color: yellow;
+    color: black;
+}
+
+p .Mon {
+    background-color: yellow;
+    color: black;
+}
+
+p .Ral {
+    background-color: yellow;
+    color: black;
+}
+
+p .Yx {
+    background-color: yellow;
+    color: black;
+}
+
+p .Etx {
+    background-color: yellow;
+    color: black;
+}
+
+p .Ti {
+    background-color: yellow;
+    color: black;
+}
+
+p .Pat {
+    background-color: yellow;
+    color: black;
+}
+
+p .Woo {
+    background-color: yellow;
+    color: black;
+}
+
+p .Comp {
+    background-color: yellow;
+    color: black;
+}
+
+p .Gor {
+    background-color: yellow;
+    color: black;
+}
+
+p .Prof {
+    background-color: yellow;
+    color: black;
+}
+
+p .Cri {
+    background-color: yellow;
+    color: black;
+}
+
+p .Lx {
+    background-color: yellow;
+    color: black;
+}
+
+p .Norm {
+    background-color: yellow;
+    color: black;
+}
+
+article {
+   background-color: rgb(82, 164, 233);
+   border: 1px solid black;
+   margin: auto;
+   padding: 4%;
+   font-variant: normal;
+   font-size: 120%;
+   font-weight: 400%;
+}
+
+figcaption {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+figure{
+    width: 85%;
+    padding: 2%;
+    margin: auto;
+}
+
+
+figure>img {
+    width: 100%;
+    padding: 2%;
+}
+
+ul {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(183, 207, 226);
+    color: black;
+    list-style-type: upper-latin;
+    margin: auto;
+    font-size: 100%;
+    border: 1px solid black;
+    float: left;
+    padding: 5%;
+}
+
+
+ol {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(183, 207, 226);
+    color: black;
+    list-style-type: upper-roman;
+    margin: auto;
+    border: 1px solid black;
+}
+
+ol>ol {
+    list-style-type: disc;
+    margin: auto;
+    border: none;
+}
+
+
+nav {
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid black;
+    width: 100%;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(183, 207, 226);
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 0%;
+}
+
+nav ul li a {
+    color: red;
+    font-weight: 450;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: black;
+    margin: auto;
+}
+
+
+nav ul li a:active {
+    color: blue;
+    margin: auto;
+}
+
+
+table {
+    margin: auto;
+    width: 80%;
+    background-color: olive;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+thead, tfoot {
+    background-color: red;
+    margin:auto;
+}
+
+tbody {
+    background-color: orange;
+    margin:auto
+}
+
+blockquote::after {
+    content: "-David Hogg";
+    line-height: .1em;
+}
+
+blockquote {
+    font-size: 1.4em;
+    padding: 2%;
+    background-color: rgb(124, 187, 240);
+    font-family: 'Times new roman', serif;
+    margin: 8%;
+    line-height: 1.4em;
+    border-left: 5px solid red;
+    color: rgb(48, 13, 13);
+}
+
+.Opera:after {
+   content: "-Cypheroftyr";
+}
+
+.Vi::after {
+    content: "-Donald Trump";
+}
+
+.Ori::after {
+    content: none;
+}
+
